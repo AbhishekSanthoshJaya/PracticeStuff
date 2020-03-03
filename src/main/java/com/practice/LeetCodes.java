@@ -8,7 +8,7 @@ public class LeetCodes {
     public static void main(String[] args) {
         int[] arr = new int[]{2, 7, 11, 15};
         LeetCodes obj = new LeetCodes();
-        int output = obj.strStr("hello","ll");
+        int output = obj.strStr("mymotherisgreat","great");
         System.out.println(output);
     }
 
@@ -61,9 +61,13 @@ public class LeetCodes {
         return 0;
     }
     char s = needle.charAt(0);
+    String s2= "";
     for(int i =0; i < haystack.length(); i ++){
-        if(haystack.charAt(i) == s){
-            String s2 = haystack.substring(i, needle.length()+i);
+        if(haystack.charAt(i) == s) {
+            for (int j = i; j < needle.length()+i; j++) {
+                s2 += haystack.charAt(j);
+            }
+        }
             if(s2.equals(needle)) {
                 return i;
             }
@@ -71,8 +75,8 @@ public class LeetCodes {
                     s2 = "";
                 }
             }
+        return -1;
         }
-    return -1;
      }
-   }
+
 
