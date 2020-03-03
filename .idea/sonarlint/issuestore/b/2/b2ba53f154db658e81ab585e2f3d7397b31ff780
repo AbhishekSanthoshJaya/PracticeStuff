@@ -1,0 +1,10 @@
+
+Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8Ê‚·‰.
+Fsquid:S1481	"(Remove this unused "arr" local variable.(›§Ù8Ù»µ·‰.
+^squid:UselessImportCheck".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Ê‚·‰.
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¢àóÄ8Ñ­÷áˆ.
+W"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(ı‘‘8Ù«òº‰.
+osquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Šµ²
+8û–ç¼‰.
+]squid:UselessImportCheck"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8şôµ·‰.
